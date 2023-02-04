@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Etch-A-Sketch</h1>
+    <main>
+
+        <div class="options">
+            <div class="slider-container">
+                <label for="$myRange" class="size-label">Size</label>
+                <label for="#myRange" class="value">16</label>
+                <div class="slider-info">
+                    <label for="#myRange" class="min">2</label>
+                    <input type="range" min="2" max="100" value="16" class="slider" id="myRange">
+                    <label for="#myRange" class="max">100</label>
+                </div>
+            </div>
+            <div class="color">
+                <label for=".color-selector" class="color-label">Color</label>
+                <input type="color" class="color-selector">
+            </div>
+            <button class="clear">
+                Clear
+            </button>
+        </div>
+        <div class="drawing-grid">
+    
+        </div>
+    </main>
+</body>
+</html>
